@@ -165,6 +165,22 @@
             transform: translateY(-2px);
         }
 
+        /* Schedule List Styling */
+        .schedule-list {
+            list-style: none;
+            padding: 0;
+            font-size: 1.3rem;
+            margin: 20px 0;
+        }
+
+        .schedule-list li {
+            margin-bottom: 10px;
+        }
+
+        .schedule-list strong {
+            color: var(--primary-red);
+        }
+
         footer {
             text-align: center;
             padding: 60px 20px;
@@ -234,15 +250,22 @@
     </div>
 
     <div style="margin-top: 50px; text-align: center; border-top: 1px solid #ddd; padding-top: 30px;">
-        <h3 class="section-title">Next Premiere</h3>
-        <p style="font-size: 1.4rem; margin-bottom: 5px;"><strong>Opening Night: January 23rd</strong></p>
-        <p style="margin-top: 0; color: var(--dark-gold);">19:00 sharp</p>
+        <h3 class="section-title">Schedule</h3>
+        
+        <ul class="schedule-list">
+            <li><strong>January 23rd</strong> &mdash; Opening Night</li>
+            <li><strong>February 6th</strong> &mdash; Session II</li>
+            <li><strong>March 20th</strong> &mdash; Session III</li>
+            <li><strong>April 17th</strong> &mdash; Session IV</li>
+        </ul>
+
+        <p style="margin-top: 0; color: var(--dark-gold);">Curtain call at 19:00 sharp for all sessions.</p>
         <p><em>Lead Lecturer: <strong>Julia Prybitkova</strong> (Discussion Club)<br>
         Guest experts from the Finnish National Opera to be announced.</em></p>
         
         <a href="https://book.stripe.com/dRm14nbmDclz7hl1EUd7q0f" class="btn">Reserve Your Seat</a>
     </div>
-</div>
+    </div>
 
 <footer>
     <p>EST. 2025 &bull; OPERA ON FRIDAYS &bull; FINLAND</p>
